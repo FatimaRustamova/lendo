@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 32px;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  padding: 15px 0;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+nav .lendo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .lendo img {
+  cursor: pointer;
+}
+nav .lendo ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 18px;
+}
+nav .lendo ul li {
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+}
+nav .lendo ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .lendo ul i {
+  color: white;
+  cursor: pointer;
+}
+nav .lendo ul button {
+  background-color: firebrick;
+  width: 180px;
+  height: 50px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  border: 1px solid firebrick;
+  cursor: pointer;
+}
+nav .lendo i {
+  display: none;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.sect1 {
+  width: 100%;
+  padding: 200px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/h1_hero.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect1 .head {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.sect1 .head h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+.sect1 .head p {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.sect1 .head button {
+  background-color: firebrick;
+  width: 280px;
+  height: 70px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  border: 1px solid firebrick;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.sect1 .head button i {
+  font-size: 20px;
+  color: white;
+}
+
+.sect2 {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #F2F4F8;
+}
+.sect2 .height {
+  width: 45%;
+}
+.sect2 .height h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+}
+.sect2 .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.sect2 .input input[type=search] {
+  width: 400px;
+  height: 45px;
+  border: 2px solid indianred;
+  outline: none;
+  padding-left: 15px;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+}
+.sect2 .input button {
+  width: 150px;
+  height: 45px;
+  background-color: indianred;
+  border: 1px solid indianred;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.sect2 .power {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.sect2 .power .energy {
+  width: 23%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 0;
+  margin-top: 40px;
+  transition: all 0.5s ease;
+}
+.sect2 .power .energy img {
+  width: 18%;
+}
+.sect2 .power .energy h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.sect2 .power .energy button {
+  width: 150px;
+  height: 45px;
+  background-color: seagreen;
+  border: 1px solid seagreen;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.sect2 .power .energy button:hover {
+  background-color: rgb(29, 92, 56);
+  cursor: pointer;
+}
+.sect2 .power .energy:hover {
+  box-shadow: 0px 0px 25px 1px rgba(150, 150, 150, 0.75);
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(150, 150, 150, 0.75);
+  -moz-box-shadow: 0px 0px 25px 1px rgba(150, 150, 150, 0.75);
+}
+
+.sect3 {
+  width: 100%;
+  padding: 100px 0;
+  background-image: url("../images/section-bg1.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sect3 .plan {
+  width: 80%;
+  padding: 70px 170px 70px 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sect3 .plan h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+}
+.sect3 .plan p {
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  color: grey;
+  line-height: 1.6;
+}
+.sect3 .plan button {
+  background-color: firebrick;
+  width: 180px;
+  height: 60px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  border: 1px solid firebrick;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.sect3 .plan button i {
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copy p {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  color: dimgrey;
+  text-align: center;
+}
+footer .copy p a {
+  text-decoration: none;
+  color: firebrick;
+}
+footer .copy p i {
+  color: firebrick;
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    max-width: 800px;
+  }
+  nav .lendo ul {
+    display: none;
+  }
+  nav .lendo i {
+    display: block;
+  }
+  .sect1 .head {
+    width: 70%;
+  }
+  .sect2 .height {
+    width: 60%;
+  }
+  .sect2 .height h2 {
+    font-size: 35px;
+  }
+  .sect2 .power .energy {
+    width: 32%;
+  }
+  .sect3 .plan {
+    padding: 50px 100px;
+  }
+  .sect3 .plan h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+  .sect1 .head {
+    width: 80%;
+  }
+  .sect1 .head h1 {
+    font-size: 35px;
+  }
+  .sect2 .height {
+    width: 100%;
+  }
+  .sect2 .height h2 {
+    font-size: 30px;
+  }
+  .sect2 .power .energy {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 1200px;
+  }
+  .sect1 .head {
+    width: 100%;
+  }
+  .sect2 .height h2 {
+    font-size: 25px;
+  }
+  .sect2 .power .energy {
+    width: 100%;
+  }
+  .sect3 .plan {
+    width: 90%;
+    padding: 50px;
+  }
+  .sect3 .plan h2 {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=style.css.map */
